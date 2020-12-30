@@ -50,7 +50,7 @@ export function HomePage() {
 
   const logoUrl = configs.image("logo");
 
-  const showDescription = featuredRooms.length === 0;
+  const showDescription = true;
 
   const logoStyles = classNames(styles.logoContainer, {
     [styles.centerLogo]: !showDescription
