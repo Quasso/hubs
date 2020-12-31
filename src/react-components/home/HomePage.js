@@ -46,18 +46,18 @@ export function HomePage() {
 
   const canCreateRooms = !configs.feature("disable_room_creation") || auth.isAdmin;
 
-  const pageStyle = { backgroundImage: configs.image("home_background", true) };
+  // const pageStyle = { backgroundImage: configs.image("home_background", true) };
 
   const logoUrl = configs.image("logo");
 
-  const showDescription = featuredRooms.length === 0;
+  const showDescription = true;
 
   const logoStyles = classNames(styles.logoContainer, {
     [styles.centerLogo]: !showDescription
   });
 
   return (
-    <Page className={styles.homePage} style={pageStyle}>
+    <Page className={styles.homePage}>
       <section>
         <div className={styles.appInfo}>
           <div className={logoStyles}>
