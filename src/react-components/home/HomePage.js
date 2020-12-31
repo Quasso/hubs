@@ -79,7 +79,7 @@ export function HomePage() {
           <MediaGrid>{featuredRooms.map(room => <RoomTile key={room.id} room={room} />)}</MediaGrid>
         </section>
       )}
-      <section>
+      <section class="enter-room-code">
         <div className={styles.secondaryLinks}>
           <a href="/link">
             <FormattedMessage id="home.have_code" />
