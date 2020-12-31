@@ -32,15 +32,13 @@
 
 :local(.logo-container) {
   max-width: 250px;
-  align-self: auto;
-
-  @media (min-width: $breakpoint-lg) {
-    align-self: flex-start;
-  }
+  align-self: center;
+  padding-bottom: 10px;
 
   img {
     width: 100%;
     height: auto;
+
   }
 }
 
