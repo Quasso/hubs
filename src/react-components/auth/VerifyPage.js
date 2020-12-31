@@ -59,7 +59,7 @@ function EmailVerified() {
   return (
     <div className={styles.signInContainer}>
       <h1>Verification Complete</h1>
-      <b>Please close this browser window and return to {origin}.</b>
+      <b>Please close this browser window and return to HieroVR.</b>
     </div>
   );
 }
