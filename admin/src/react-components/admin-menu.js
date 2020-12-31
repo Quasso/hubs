@@ -28,7 +28,7 @@ const styles = () => ({
     paddingTop: 0,
 
     "& .active": {
-      background: "#FF3464 !important"
+      background: "#ff9f43 !important"
     },
 
     "& .active svg": {

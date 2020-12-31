@@ -2,7 +2,7 @@ import { waitForDOMContentLoaded } from "./async-utils";
 import configs from "./configs";
 
 // Node these should be synchronized with the top of shared.scss
-const DEFAULT_ACTION_COLOR = "#FF3464";
+const DEFAULT_ACTION_COLOR = "#ff9f43";
 const DEFAULT_ACTION_COLOR_LIGHT = "#FF74A4";
 
 const DEFAULT_COLORS = {
